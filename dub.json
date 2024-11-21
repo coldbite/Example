@@ -1,0 +1,21 @@
+{
+	"authors": [
+		"Adrian Preuss"
+	],
+	"copyright": "Copyright © 2024, Adrian Preuss",
+	"dependencies": {
+		"coldbite": "1.0.0"
+	},
+	"description": "A mininal engine example",
+	"license": "MIT",
+	"name": "example",
+	"targetName": "MyGame",
+	"targetPath": "build",
+	"configurations": [
+		{
+			"name": "32bit",
+			"platforms": ["windows"],
+			"dflags": ["-m32"]
+		}
+	]
+}
