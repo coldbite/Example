@@ -6,7 +6,12 @@ If you're using the git-repo, please use following depencies:
 ```json
 "dependencies": {
   "coldbite": {
+        
+    // Absolute Path:
     "path": "C:/Users/<Username>/Documents/GitHub/Engine"
+        
+    // or relative Path:
+    "path": "../Engine"
   }
 },
 ```

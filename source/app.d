@@ -13,7 +13,7 @@ class Client : BaseGame {
 		// @ToDo Resizable, Minimize, Maximize, Restore?
 		//setFullscreen(true);
 
-		setRenderer(RendererType.DirectX);
+		setRenderer(RendererType.Vulkan);
 
 		// Init
 		start();
